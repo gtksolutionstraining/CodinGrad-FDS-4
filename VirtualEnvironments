@@ -1,0 +1,6 @@
+Virtual Environments --> Application Layer's isolation
+--> Example --> Python is an Application
+--> On top of python --> If we have isolation for different projects.
+
+We have to maintain our Environment
+--> requirements.txt

@@ -1,0 +1,58 @@
+Data : UnProcessed Data and UnOrganized Data
+
+Data Scale : Raw Data --> BigData 
+
+The Engineering Approach that we are using to solve this kind of big problem is making use of Distribiuted Computing
+
+1. Data Engineering : A Engineering Approach which will curate the whole unprocessed Big Data to Oraganized Data
+    1. Data Ingestion
+        1. Flume, Kafka, Apache Nifi, etc.
+    2. Data Warehousing
+    3. Data Transformation  --> Data Type Transormation --Date
+    4. Data Indexing‘
+    5. Data Fingerprinting
+    6. Data tagging
+    7. Data Profiling
+
+ETL Pipeline --> Snowflake, Informatica, AWS Glue
+_-> Data Engineers --> (80%)
+--> Big Data Technonologies --> 
+    --Platforms => Hadoop, Spark
+    --Tools ==> Ingesting Tools, Event Streaming Tools,
+    --Programming languges ==> Scala(Efficeient) and Python 
+        --Frameworks (Packages) ==> PySpark, SparkML, SparkSQL, Hive, Impala
+Big Data Analysis Tools:
+    ---> Athena, Redshift, Databricks - Parquet, Avro, ORS, etc.
+
+-- Organized, Transformed, indexed Data.
+
+2. Data Analysis (Statistics)
+---> Data Profiling
+---> Programmatically Visualization --> Expertise in programming and Statistics --> Data Analyst
+---> Data Analysis
+
+3. Data Science (Statistics & Mathematics)
+---> Machine Learning
+    --> Supervised ML 
+        1. Structural Machine Learning --> Organized Processed Data --> CSV
+        2. Computer Vision (Image Processing) 
+        3. Natural Laguage Processing (NLP)
+---> Automated ML
+
+Information: Processed Data
+
+4. Visualization --> Data Analyst
+---> Tools ---> Power BI(Commercial), Tableau(General Usecases)
+
+
+==== PYTHON PROGRAMMING ====
+
+    --> Python Developer --(Backend)
+    --> Fullstack Developer --- React/Angular
+    --> Automation Engineer -- Bash
+    --> Library Management System (LMS)
+
+
+Numpy
+Pandas
+OpenCV

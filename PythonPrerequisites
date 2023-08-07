@@ -1,0 +1,25 @@
+Python --> Application
+Python --> Inbuilt packages will be available
+    1. math,os,sys,logging,etc.
+Python --> 3rd party packages
+    1. Tensorflow, PyTorch, Pandas, DataPrep, "virtualenv"
+
+We can install our python 3rd party modules using python installation package manager --> pip
+
+1. pip install virtualenv
+
+Python Virtual Environment:
+1. activate
+2. deactivate
+
+--> by default pyenv will in deactivate state
+--> We have to activate it.
+    1. we have to run one bash program
+
+    relative path==> <Parentdirectory>/lms/bin/activate
+                 ==> <Parentdirectory>/lms/Scripts/activate
+
+    2. source <relative path>
+
+--> Deactivating
+    1. deactivate

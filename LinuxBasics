@@ -1,0 +1,53 @@
+Folder Naming
+--> CamalCase with starting letter capital
+--> Ex: codin grad, CODINGRAD, Codin Grad --> Unaccetaptable
+--> CodinGrad
+--> Ex: Fullstack Data Science
+--> FullstackDataScience - FDS
+File Naming
+--> All smallcase letters
+--> snake_case
+--> Ex: introduction to the course
+--> introduction_course
+--> Try not to use prepositions, conjunctions, article
+
+FileSystem:
+--> Its a software which will map your paths to address on disk
+--> FTS, NFTS -- File Tables
+--> Paths:
+    1. Absolute Path -> Full path -> C:\Users\Vamshi\CodinGrad\sample.txt
+        1. Linux Path -> /home/users/vamshi/CodinGrad/sample.txt
+        ---> Root Folder(Starting Folder) --> /(Linux) , C:Drive(Linux), G:
+        ---> OS Folders --> /usr, /bin, /lib, /sbin, /home, /mnt
+        ---> Home Folder --> /home/vamshi (Linux), C:\Users\Vamshi (Windows)
+        ---> Command Prompt / Terminal --> Default --> Home Folder
+    2. Relative Path -> .\CodinGrad\sample.txt
+        ---> pwd --> Linux Command --> Present Working Directory
+        ---> w.r.t PWD where is the path --> relative Path
+
+Environment Variables: --> Lookup Table
+
+HOME : its an Environment variable which holds Home Directory
+PATH : <Terminal Binary path>:<VS Code Binary path>:<Python Binary Path>:</Python>
+PYTHONPATH : 
+
+
+Applications:
+1. GUI Applications --> VS Code, Chrome, GitBash GUI, Notepad
+2. Non-GUI Applications --> Terminal, GitBash, Python, Java, C/C++, Vim, Nano, emacs, etc.
+3. Daemon Applications --> Sleep, Monitor Maintainance, Brightness, System Daemon Applications.
+
+VIM: 
+--> Vim is non-gui editor.
+--> It will be in 2 modes
+    1. Read mode
+    2. Write mode
+--> By Default vim editor will be in read mode
+
+** ls --> listing all files in current directory
+** ls <path> --> list out all contents inside the path
+** ls -l --> with more details
+** clear --> clearing the screen
+** cd .. --> one step back
+** rm <filepath> --> will delete specified file
+** rm -r <folderpath> --> will delete all files recursively.
