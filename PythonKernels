@@ -1,0 +1,15 @@
+Kernel: OS
+    1. Process Management
+    2. Memory Management
+    3. File Management
+
+Kernel will be helpfull or like handy assistant for opening your applications in computer
+    Ex: VS Code, Terminal, Python
+    Kernel Lookup table: -- PATH Environment variable
+
+Python Kernel: 
+    1. Helpful to communicate your code to CPU -- Road
+    2. Helpful for getting modules and keep ready it for you
+
+    Python Kernal Lookup table: PYTHONPATH Environment Variable
+    
