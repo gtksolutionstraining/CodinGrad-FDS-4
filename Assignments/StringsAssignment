@@ -1,0 +1,12 @@
+find
+index
+count
+lstrip
+rstrip
+strip
+split
+splitlines
+replace
+startsWith
+endsWith
+join
