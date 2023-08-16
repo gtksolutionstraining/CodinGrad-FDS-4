@@ -1,0 +1,36 @@
+str.join
+
+---> LHS, and RHS
+---> LHS is delimeter --> .,:;'-_=+&$#@/\
+---> RHS is sequence of elements
+---> If RHS is a single string --> Sequence of characters
+    Example: ".".join("Hyderabad") ---> 'H.y.d.e.r.a.b.a.d'
+    Example: ".".join(["Hyderabd"]) ---> 'Hyderabad'
+    Example: cities = ",".join(["Hyderabad","Warangal","Bangalore"]) ---> 'Hyderabad,Warangal,Bangalore'
+---> str.join returns a single string
+
+str.split
+
+---> split takes a delimeter as a parameters
+---> Example: cities.split(',')
+    1. []
+    2. ['Hyderabad']
+    3. ['Hyderabad','Warangal']
+    4. ['Hyderabad','Warangal','Bangalore']
+
+str.splitlines
+
+---> Splitlines by default takes --> \n as a delimeter to split
+---> File Handling
+---> === str.split('\n')
+
+str.strip
+
+---> By default strip will remove whitespaces
+---> We can also provide characters which can be removed
+
+str.replace
+
+---> Replace is not inplace
+---> Replace will not replace specified characters in same memory location - because strings are immutable
+---> Replace will take a copy of original string and replace the requirement --> then stores in different location of the memory
