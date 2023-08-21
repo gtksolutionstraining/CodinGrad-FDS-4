@@ -1,0 +1,7 @@
+1. You have to create a problem which needs Conditions --> Solve it
+2. Given a number you need to check whether the number is even or odd
+    --> Use F strings
+    --> Use If Else
+3. Given a salary find that in which category the employee falls under. The Categories are --> LessPayers --> 10K-15K, Average Payers --> 15K-25K, MorePayers --> 25K> 
+    --> Use F Strings
+    --> Use If Elif Else

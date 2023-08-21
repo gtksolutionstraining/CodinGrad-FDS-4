@@ -1,0 +1,13 @@
+Control Flows defines the Software.
+3 Condtrol Flows:
+    1. Conditions
+    2. Loops
+    3. Functions
+
+1. Conditions: --> Conditional statement will determine the Conditional flow.
+    1. Simple Conditional Flow
+        --> If Else Block
+    2. MultiBranch Conditional Flow
+        --> If Elif Elif ... Else Block
+    3. Nested Conditional Flow
+        --> If    If Else      Else
