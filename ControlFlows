@@ -11,3 +11,37 @@ Control Flows defines the Software.
         --> If Elif Elif ... Else Block
     3. Nested Conditional Flow
         --> If    If Else      Else
+2. Loops: --> To do the task repeatatively
+    --> We know the number of iterations
+    1. For Each Loops
+        --> For each element in a collection
+        --> Collection --> List, Tuple
+        --> Collection --> Each element is the key of the items in dictionaries
+        --> For a,b in {"a":"b"}.items():
+        --> Collection --> String --> Each character is an element
+        --> W.r.t element inside the collection 
+        --> It will not concentrate on iteration
+        --> We can explicitly maintain iterations
+    2. Normal For Loop:
+        --> It will maintain iterations
+        --> To give iterations to the for loops we have a function called range
+        --> range(start_index=0, end_position, stride=1)
+        --> Example: range(10) --> 0,1,2,3,4,...9
+        --> This iteration number will be used as index for the collection
+        --> This iteration number can also be used in implementing different logics
+        --> Most sorting algorithms uses for loops
+        --> Most Searching algorithms uses for loops
+        --> Most of situations also solved by for loops
+    3. Inline For Loop / One Line For loop:
+        --> List -> [ele for ele in elements if ele%2 == 0]
+        --> enumerate --> Will take a collection --> it will return list of (element's index,element)
+        --> enumerate is a C Language implementation --> It has already compiled code / Binary Code -> Address
+        --> Dict -> {i:ele for i,ele in enumerate(elements)}
+
+    4. While Loops:
+        --> These loops will be looping over a conditions
+        --> While may go into Infinite Loop
+        --> Base Condition for While loops should be proper
+        --> Will use while loops in LMS
+
+    
