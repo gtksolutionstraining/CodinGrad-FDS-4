@@ -1,0 +1,21 @@
+def add1(a,b):
+    return a+b
+
+def add2(a,b=1):
+    return a+b
+
+def add3(a=1,b):
+    return a+b
+
+def add4(a,b):
+    return a+b
+
+add4(1)
+add2(1)
+
+def add5(a,*,b):
+    return a+b
+
+def add6(a,/,b,*,c,d = 10):
+    return a+b+c+d
+

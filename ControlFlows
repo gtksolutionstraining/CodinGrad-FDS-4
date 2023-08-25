@@ -44,4 +44,14 @@ Control Flows defines the Software.
         --> Base Condition for While loops should be proper
         --> Will use while loops in LMS
 
-    
+
+Functional Programming Paradigm
+Functions:
+    -> Function is a code block which can be reused. 
+    -> A Function will take inputs and do some logic then return the output
+    -> 1. A function with no inputs and no outputs ==> Display Functions
+    -> 2. A function with inputs and no outputs
+    -> 3. A function with inputs and outputs
+    -> 4. A function with no inputs and outputs ==> Rarely we will use this
+    -> Functions make the software more modular. 
+    -> If the program is modular --> you can extend software and the software is easily maintainable.eval
