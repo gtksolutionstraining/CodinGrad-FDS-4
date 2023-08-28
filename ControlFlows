@@ -55,3 +55,11 @@ Functions:
     -> 4. A function with no inputs and outputs ==> Rarely we will use this
     -> Functions make the software more modular. 
     -> If the program is modular --> you can extend software and the software is easily maintainable.eval
+    -> Functional Parameters
+    -> Pass by Value
+    -> Pass by Reference
+    -> Types of functional arguments
+    -> Advanced Functions
+        1. lambda
+        2. filter
+        3. map

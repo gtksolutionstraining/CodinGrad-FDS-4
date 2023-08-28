@@ -1,0 +1,25 @@
+def A(a,b,d=10,e):
+    print all
+
+When the error is coming either from calling function or defining function
+
+A() call this in all possible ways
+
+def A(a,b,c,d=100):
+    print all
+
+A(1,2,3,4)
+def B(a=10,b=11,c=12):
+    print asll
+
+def A(*,a,b):
+    print all
+
+def A(a,/,b,c):
+    print all
+
+def A(a,/,b,*,c=10,d):
+    print all
+
+def A(a,/,b,*,d,c=10):
+    print all
