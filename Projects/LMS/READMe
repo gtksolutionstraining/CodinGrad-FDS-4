@@ -1,0 +1,16 @@
+ProblemStatement--> Managing Users, Admins and Books of a Library manually through excel books
+
+Solution:--> Building a software which will manage users, admins and books of the library.
+
+Software Paradigms: Engineering
+    1. Functional Programming : The software drives from the functions
+    2. Imperative Programming : The Software drives from Logic
+    3. Declerative Programming : Commands
+    4. Object Oriented Programming : Objects ==> SOLID Principles
+
+Our Solution: Functional Programming using Files 
+
+TechStack: Python Programming Language, Collections, JSON files.
+
+Engineering:
+    1. Agile

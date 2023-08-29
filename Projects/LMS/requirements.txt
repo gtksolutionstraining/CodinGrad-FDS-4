@@ -1,0 +1,2 @@
+#Python Version = 3.9.12
+#Modules used in building software and their version
