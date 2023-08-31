@@ -1,4 +1,7 @@
-from utils.input_utils import take_choice
+from utils.input_utils import (
+    take_choice,
+    take_user_password
+)
 from utils.display_utils import (
     display_main_menu
 )
@@ -9,7 +12,11 @@ def lms_entry():
         display_main_menu()
         choice = take_choice()
         if choice == 1:
-            admin_entry()
+            login_status = take_user_password()
+            if login_status:
+                admin_entry()
+            else:
+                print("Wrong Credentials!")
         elif choice == 2:
             print("THIS IS STUDENT MENU")
         elif choice == 3:
