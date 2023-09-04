@@ -14,3 +14,27 @@ TechStack: Python Programming Language, Collections, JSON files.
 
 Engineering:
     1. Agile
+
+
+A Programmer is called Good if he is good at debugging.
+
+OutComes:
+1. You should be familiar with Control Flows 
+    1. Conditional Flows
+    2. Iterative Flows
+        1. While
+        2. For Loops
+    3. Functions
+        1. You should be able to split the logic
+        2. You should be able to organize the functions
+2. Functional Programming --> System Design
+3. Business Value Proposition
+    1. You should be able write a initial software which should be scalable.
+4. You should be able write fast code.
+
+** Note: The LMS project's code base is scalable. But Data Schema is not scalable.
+
+=> We need to shift our data schema from files to DBMS.
+    1. MongoDB - semi-structured
+    2. Postgresql - structured
+    3. MySQL - structured

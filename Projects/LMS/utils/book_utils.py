@@ -9,7 +9,6 @@ from config import (
     sem_map,
     dept_map
 )
-
 def get_details():
     dept = take_dept()
     dept = dept_map[dept]

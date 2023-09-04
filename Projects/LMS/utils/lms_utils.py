@@ -6,6 +6,11 @@ from utils.display_utils import (
     display_main_menu
 )
 from utils.admin_utils import admin_entry
+from utils.file_utils import write_json
+from config import(
+    CONFIG_JSON_PATH,
+    LMS
+)
 def lms_entry():
     flag = True
     while flag:
@@ -23,6 +28,7 @@ def lms_entry():
             print("THIS IS TEACHER MENU")
         elif choice == 4:
             flag = False
+            write_json(CONFIG_JSON_PATH,LMS)
             print("Thank you for using I am shutting down")
         else:
             print("Wrong input, please select 1,2,3,4 only.")
