@@ -1,0 +1,33 @@
+Its a Programming Style
+This Programming Style drives from data.
+
+Advantages:
+1. Scalable
+2. Extendable
+3. Robustness
+4. Security & Privacy --> Each component is private to itself
+5. Isolation   ---> Isolated components   
+6. Integration --> Relationship between components
+7. Mainatainbility
+
+Disadvatages:
+1. Hard to learn, hard to write.
+
+Component: Entity: Class
+
+--> Blueprint --> Is defined by properties and actions of the entity
+--> Class is a blueprint. --> Logical Entity 
+--> Object is an instance of a class --> Physical Entity
+
+--> OOP is a style of programming and our most focus is on defining and organizing objects efficiently.
+
+OOPs Concepts:
+1. Class
+2. Object
+3. Member Variables
+4. Member Functions
+5. Encapsulation
+6. Abstraction
+7. Inheritance
+8. Static Polymorphism
+9. Dynamic Polymorphism

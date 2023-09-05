@@ -8,3 +8,4 @@ def read_json(file_path):
 def write_json(file_path,LMS):
     with open(file_path,"w") as file:
         file.write(str(LMS).replace('\'','"'))
+

@@ -1,0 +1,3 @@
+Every Python File is a module
+The name of every python file is "__main__"
+If modules are inside any folder then the folder is called "package".
