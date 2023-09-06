@@ -31,3 +31,13 @@ OOPs Concepts:
 7. Inheritance
 8. Static Polymorphism
 9. Dynamic Polymorphism
+
+Member Variables --> Attributes --> Parameters --> Fields --> Columns --> Variables --> Features --> Properties --> Properties of an entity
+
+Member Functions --> Actions of an entity
+
+4 Blocks of memory --> Stack, Heap, Global, Static
+** Variables --> Stack
+** functions --> Stack
+** Recursion --> Stack --> Stack Overflow
+** All objects stored in Heap Area of the RAM
