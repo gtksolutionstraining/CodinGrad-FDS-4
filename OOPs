@@ -41,3 +41,64 @@ Member Functions --> Actions of an entity
 ** functions --> Stack
 ** Recursion --> Stack --> Stack Overflow
 ** All objects stored in Heap Area of the RAM
+
+***** Decorator: Wrapper ==> Adding an extra functionality to an existing functionaility
+
+
+1. Constructor
+2. Instance Variables
+3. Class Variables
+4. Instance Methods
+5. Class Methods
+6. Static Methods
+
+1. Constructor: ==> Construction/Creation of the object using instance variables.
+** Scope of an object
+    1. All instance variables are under the scope of an individual object.
+    2. All instance methods are under the scope of an individual object.
+    3. All class variables are under the scope of class, and objects --> shared memory
+    4. All class methods are under the scope of class, and objects --> shared actions
+
+2. Constructor Overloading: Its not in Python
+    class Human{
+        ## Default Constructor
+    }
+    class Human{
+        Human(){
+        ## Constructor with no arguments
+        }
+        Human(eyes,nose){
+        ## Constructor wiith arguments
+        }
+        Human(Human *human){
+        ## Copy Constructor
+        }
+    }
+    
+3. Function Overloading --> 
+
+    int add(int a,int b){
+        return a+b
+    }
+    int add(int a,int b,int c){
+        return a+b+c
+    }
+    float add(float a, float b){
+        return a+b
+    }
+
+    Addition
+    Travelling
+
+    sum = add(1,2)
+    sum = add(1.2,1.3)
+    sum = add(1,2,3)
+
+Access Specifiers: Restricted scope.
+1. Private --> Are scoped under individual class object, only inside the class
+2. Protected --> Are scoped under individual class object, Accesses inside another class which was been inherited by the object class.
+3. Public --> Are scoped under individual class object, Accessible from any place in the program.
+
+Encapsulation: Binding of Data & Functions.
+
+Abstraction: Hiding Information
