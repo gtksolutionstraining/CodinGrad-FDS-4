@@ -102,3 +102,19 @@ Access Specifiers: Restricted scope.
 Encapsulation: Binding of Data & Functions.
 
 Abstraction: Hiding Information
+
+Interitance: Inheriting member variables and member functions from the base class
+
+--> Base Class: Parent Class: 
+--> Child Class: Sub Class:
+
+--> Inheritance is usefull in reusing the functionality 
+--> Single Level Inheritance Only one child class, which inherits only one base class
+--> Multi Level Inheritance --> Chain Inheritance A->B->C
+--> Multiple Inheritance --> A,B --> C(A,B)
+--> Hierarchial Inheritance
+--> Hybrid Inheritance
+
+--> All public, protected properties and actions only will be accessible in Inherited class
+--> Private properties and actions won't be accessible in inherited classes
+
