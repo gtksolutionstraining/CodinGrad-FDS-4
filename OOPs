@@ -118,3 +118,5 @@ Interitance: Inheriting member variables and member functions from the base clas
 --> All public, protected properties and actions only will be accessible in Inherited class
 --> Private properties and actions won't be accessible in inherited classes
 
+Polymorphism: 
+MRO ==> Method Resolution Order. --> Left to Right

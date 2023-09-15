@@ -1,0 +1,11 @@
+Algorithm:
+
+for each row in rows of MatrixA{
+    for each columnB in columss of MatrixB{
+        i = 0
+        for each columnA of MatrixA{
+            i += A(row,columnA) * B(columnA, columnB)
+        }
+    }
+
+}
