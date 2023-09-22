@@ -1,0 +1,13 @@
+List --> LinkedList --> Non Continuous Memory --> need not be a same data type
+Array --> Continuous memory allocation with same data type
+
+Accessing Complexity:
+    ** n is the number of elements
+    1. List --> O(n) 
+    2. Array --> O(1)
+
+Insertion Complexity:
+    ** n is the number of elements
+    1. List --> O(1)
+    2. Array --> O(n)
+    
