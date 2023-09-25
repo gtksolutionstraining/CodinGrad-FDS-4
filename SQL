@@ -1,0 +1,8 @@
+File Management System:
+1. Security
+2. Redundancy
+3. Isolation
+4. Integration
+5. Constraining
+
+Database Management System
