@@ -4,5 +4,97 @@ File Management System:
 3. Isolation
 4. Integration
 5. Constraining
+6. Inconsitency
 
 Database Management System
+1. ER modelling
+2. Relational Algebra
+3. Relational Calculus
+4. Functional Dependencies
+5. Normal Forms
+    1. Redundant Data
+    2. Inconsistency
+    3. Integrity
+    --> 1st NF
+    --> 2nd NF
+    --> 3rd NF
+    --> BoyeCodd NF
+6. Indexing
+    1. Trees
+    2. Columnar Basis --> use columns and store the data --> columns --> Primary Keys and Functional Dependencies Columns.
+    3. Rows Basis --> PRIMARY KEY
+
+
+Types of DBMS:
+1. RDBMS --> SQL
+    1. MySQL     
+    2. PostgreSQL
+    3. Oracle
+    4. SQL Server
+
+2. SemiStructured Databases
+    1. MongoDB
+    2. Dynamo DB
+
+SCHEMA --> DATABASES --> TABLES
+
+1. SCHEMA
+    1. FINANCE
+        1. DATABASES
+            1. PAYROLL
+                1. TABLES
+                    1. EMPLOYEE DETAILS
+                    2. EMPLOYEE CREDENTIAL DETAILS
+            2. SUPPORT
+    2. HR
+
+CREATE USER <username>; 
+ALTER USER <username> WITH PASSWORD <password>;
+CREATE SCHEMA <schema_name> AUTHORIZATION <username>;
+
+SQL Operations: (CRUD) --> Create, Read, Update, Delete
+    GRANT * ON <schema_name> TO <username>;
+    GRANT SELECT ON <schema_name> TO <username>;
+
+names of the schemas, databases, tables, etc are case senstitive.
+    FINANCE, finance
+Follow small letters and snake case--> employee_details
+
+public schema --> sql shell will be opened
+create schema finance;
+create database finance.payroll;
+
+USE <database>;
+
+SQL Datatypes:
+    1. Number Data Types --> INT, FLOAT, DECIMAL, NUMBER
+    2. Character Data Types --> CHAR, VARCHAR, TEXT
+    3. Date Data Types --> DATE, TIMESTAMP, DATETIME
+    4. Boolean Data Types --> TRUE, FALSE
+
+Constraints:
+    name, id ***
+    id UNIQUE
+
+CREATE TABLE emp_details(
+    name VARCHAR NOT NULL,
+    dob DATE,
+    phone NUMBER CHECK phone.length==10,
+    address TEXT,
+    salary FLOAT
+    id NUMBER UNIQUE,
+    home_town VARCHAR DEFAULT 'Hyderabad'
+);
+
+INSERT INTO emp_details VALUES("Tharun","28-11-1997",39847329847,3217631 Jublihills, 10000.00, 001);
+INSERT INTO emp_details VALUES("Sai","28-11-1997",39847329847,3217631 Jublihills, 10000.00, 001);
+
+CONSTRAINTS in SQL:
+1. NOT NULL
+2. UNIQUE
+3. PRIMARY KEY --> (UNIQUE and NOT NULL)
+4. FOREIGN KEY --> Referrential Integrity
+5. DEFAULT
+6. CHECK
+
+
