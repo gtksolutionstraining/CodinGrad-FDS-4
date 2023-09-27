@@ -87,7 +87,7 @@ CREATE TABLE emp_details(
 );
 
 INSERT INTO emp_details VALUES("Tharun","28-11-1997",39847329847,3217631 Jublihills, 10000.00, 001);
-INSERT INTO emp_details VALUES("Sai","28-11-1997",39847329847,3217631 Jublihills, 10000.00, 001);
+INSERT INTO emp_details VALUES("Sai","28-11-1997",39847329847,3217631 Jublihills, 10000.00, 002);
 
 CONSTRAINTS in SQL:
 1. NOT NULL
@@ -97,4 +97,65 @@ CONSTRAINTS in SQL:
 5. DEFAULT
 6. CHECK
 
+UPDATE emp_details SET name="Raj" WHERE id=001;
 
+DELETE FROM emp_details WHERE id=001 ON DELETE SET NULL;
+                                     ON DELETE SET DEFAULT;
+                                     ON DELETE CASCADE;
+
+children and employee 
+
+employee_details:   ,sdghsdvf
+
+childer_details:john,sdsjhbds,null
+                Mike,sdjfbsdhfb,null
+
+CRUD --> C-->INSERT, R-->SELECT, U--->UPDATE, D-->DELETE
+
+1. SELECT * FROM emp_details;
+2. SELECT (name, id, salary) FROM emp_details;
+3. SELECT * FROM emp_details WHERE home_town="Warangal";
+4. SELECT * FROM emp_details WHERE salary BETWEEN 1000 and 10000;
+5. SELECT * FROM emp_details WHERE name LIKE "T%";
+    % --> zero or more letters
+    _ --> exactly one letter.
+6. SELECT * FROM emp_details WHERE name LIKE "__s%";
+7. SELECT * FROM emp_details WHERE name LIKE "%Rao";
+8. SELECT * FROM emp_details ORDER BY salary DESC;
+9. SELECT * FROM emp_details WHERE id IN (001,002,003);
+
+JOINING
+emp_details, children_details
+
+1. Extract emp_name, their children names
+
+1. CROSSPRODUCT
+
+(m,n) --> m rows n columns
+(p,q) --> p rows q columns
+
+(m*p,n+q) --> output table.
+
+WHERE emp.emp_id == children.emp_id; 
+
+2. NATURAL JOIN.
+
+** SELECT e.name,c.name FROM emp_details as e, children_details as c 
+WHERE e.emp_id == c.emp_id;
+
+
+SELECT DISTINCT name FROM emp_details;
+
+(1,1,1,1,1,2,2,2,3,4,5,5,5,5,4,6)
+
+Distinct values --> (1,2,3,4,5,6)
+Unique values   --> (3,6)
+
+dept_details, emp_details[dept_id]
+
+SELECT dept_id AVG(salary) FROM employee_details 
+GROUP BY dept_id;
+
+SELECT d.dept_id, d.dept_name, AVG(e.salary) FROM
+employee_details as e NATURAL JOIN dept_details as d 
+GROUP BY e.dept_id;
